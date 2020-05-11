@@ -49,10 +49,10 @@ def GetMedia_type():
 
 
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="python",
-    passwd="Michelle1447!jean",
-    database="Anime"
+    host="YOUR-HOST",
+    user="YOUR-USER",
+    passwd="YOUR-PASWORD",
+    database="YOUR-DATABASE"
 )
 
 formatID = GetMedia_type()
